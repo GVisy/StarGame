@@ -7,15 +7,20 @@ import com.badlogic.gdx.utils.ScreenUtils;
 
 import org.graalvm.compiler.core.target.Backend;
 
+import java.awt.Image;
+
 public class StarGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
+
 
 	
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture("ship.png");
+
+
 	}
 
 	@Override
